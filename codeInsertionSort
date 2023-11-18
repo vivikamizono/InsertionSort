@@ -1,0 +1,33 @@
+def insertionSort(vetor):
+    for i in range(len(vetor)):
+        atual = vetor[i] 
+        j = i - 1
+
+        while (j >= 0) and (vetor[j] > atual):
+            vetor[j + 1] = vetor[j]
+            j = j - 1
+
+        vetor[j + 1] = atual
+        
+def lerValores():
+    valores = []
+    n = int(input("Quantos valores você deseja ordenar? "))
+    for i in range(n):
+        valor = int(input("Digite o valor {}: ".format(i + 1)))
+        valores.append(valor)
+    return valores
+
+def main():
+    valores = lerValores()
+
+    print("\nOrdem original:\n")
+    for i in range(len(valores)):
+        print(valores[i], end="  ")
+    insertionSort(valores)
+
+    print("\n\nOrdenado:\n")
+    for i in range(len(valores)):
+        print(valores[i], end="  ")
+
+if _name_ == "_main_":
+    main()
