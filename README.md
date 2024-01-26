@@ -1,6 +1,6 @@
 <h1 align="center">Projeto Estrutura de Dados</h1> 
 <p align="center">
-<img src="https://growiz.com.br/wp-content/uploads/2020/08/kisspng-c-programming-language-logo-microsoft-visual-stud-atlas-portfolio-5b899192d7c600.1628571115357423548838.png" width="50">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Python_logo_01.svg/600px-Python_logo_01.svg.png" width="100">
 </p>
 
 <p align="center">
@@ -32,7 +32,7 @@ Esta é a ideia por trás da ordenação por inserção. Percorra as posições 
 Tecnologias Utilizadas 🖥️
 </h1>
 
-- `C#`
+- `Python`
 -  `Estrutura de Dados`
 -  `Visual Studio Code`
 
