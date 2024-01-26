@@ -29,5 +29,5 @@ def main():
     for i in range(len(valores)):
         print(valores[i], end="  ")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
